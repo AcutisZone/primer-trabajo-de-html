@@ -1,0 +1,41 @@
+p {
+    font-family: 'Electrolize', sans-serif;
+    color: red;
+    width: 300px;
+}
+
+/*
+esto es un comentario
+*/
+h1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    border: 1px solid black;
+    
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /*padding-top: 20px;
+    padding-bottom:15px ;
+    padding-left:15px ;
+    padding-right:20px ;*/
+    padding: 20px 15px 15px 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+body {background-color: rgb(143, 145, 234);}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+}
